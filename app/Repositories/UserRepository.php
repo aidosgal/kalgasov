@@ -18,6 +18,7 @@ class UserRepository
                 "posts",
                 "posts.images",
                 "posts.comments",
+                "posts.comments.user",
                 "posts.comments.responses",
                 "posts.comments.responses.user",
                 "stores"
