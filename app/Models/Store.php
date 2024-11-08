@@ -17,5 +17,5 @@ class Store extends Model
         "link3",
         "avatar_url",
         "background_url",
-    ]
+    ];
 }

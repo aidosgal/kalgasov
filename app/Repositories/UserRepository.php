@@ -13,7 +13,16 @@ class UserRepository
 
     public function getUserById($id)
     {
-        return User::find($id);
+        return User::where("id", $id)
+            ->with(
+                "posts",
+                "posts.images",
+                "posts.comments",
+                "posts.comments.responses",
+                "posts.comments.responses.user",
+                "stores"
+            )
+            ->first();
     }
 
     public function updateById(array $data, $id)
