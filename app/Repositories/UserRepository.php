@@ -16,6 +16,7 @@ class UserRepository
         return User::where("id", $id)
             ->with(
                 "posts",
+                "posts.user",
                 "posts.images",
                 "posts.comments",
                 "posts.comments.user",
