@@ -1,10 +1,10 @@
 # To Do 
 
-- [ ] Login, Register and Update
-- [ ] Post CRUD
-- [ ] Comment CRUD
+- [x] Login, Register and Update
+- [x] Post CRUD
+- [x] Comment CRUD
 - [ ] Store CRUD
 - [ ] Products CRUD
-- [ ] Fav CRUD
+- [x] Fav CRUD
 - [ ] Follow CRUD
 - [ ] Messages CRUD
